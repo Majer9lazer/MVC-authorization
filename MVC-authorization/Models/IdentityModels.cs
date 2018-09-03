@@ -29,5 +29,7 @@ namespace MVC_authorization.Models
         {
             return new ApplicationDbContext();
         }
+
+        //public System.Data.Entity.DbSet<MVC_authorization.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }
